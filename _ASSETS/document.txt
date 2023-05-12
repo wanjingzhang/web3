@@ -1,0 +1,27 @@
+https://dashboard.alchemy.com
+
+API KEY：bqRhCTCueTDI2nhPcVWF1c0w-Q6mocVp
+HTTPS：https://eth-mainnet.g.alchemy.com/v2/bqRhCTCueTDI2nhPcVWF1c0w-Q6mocVp
+WEBSOCKETS：wss://eth-mainnet.g.alchemy.com/v2/bqRhCTCueTDI2nhPcVWF1c0w-Q6mocVp
+
+CLI:
+curl https://eth-mainnet.g.alchemy.com/v2/bqRhCTCueTDI2nhPcVWF1c0w-Q6mocVp -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest", false],"id":0}'
+
+- JAVASCRIPT
+INSTALLATION
+First install the SDK in your project directory from your command line:
+npm install alchemy-sdk
+
+- SCRIPT
+Create a script.js file in your project and paste in the contents below:
+import { Network, Alchemy } from 'alchemy-sdk';
+
+const settings = {
+    apiKey: "bqRhCTCueTDI2nhPcVWF1c0w-Q6mocVp",
+    network: Network.ETH_MAINNET,
+};
+
+const alchemy = new Alchemy(settings);
+
+// get the latest block
+const latestBlock = alchemy.core.getBlock("latest").then(console.log);

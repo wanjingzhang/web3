@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  </head>
+  <body>
+    <script>
+      var getAuth = async () => {
+        // Before you make any requests to metamask, you need to first connect to metamask wallet and get the accounts that user authorizes.
+        const accounts = await ethereum.request({
+          method: "eth_requestAccounts",
+        });
+
+        // ! 转账
+        web3.eth
+          .sendTransaction({
+            from: "0x9df647AAa02AC33A8fa4D8E663d592F8b9942C6c",
+            to: "0xCBa0C1dF9aBae6d5535362Eb2436969656688D15",
+            value: web3.utils.toWei("1", "ether"),
+          })
+          .then(function (receipt) {
+            console.log("转完了");
+          });
+      };
+
+      var web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
+      console.log(web3);
+
+      // 1 需要授权账号
+      web3.eth.requestAccounts().then((res) => console.log("授权", res));
+      // 2 再获取用户账号
+      web3.eth.getAccounts().then(console.log);
+
+      // get block number
+      web3.eth.getBlockNumber().then(console.log);
+      // get chain id
+      web3.eth.getChainId().then(console.log);
+
+      web3.eth
+        .getBalance("0xCBa0C1dF9aBae6d5535362Eb2436969656688D15")
+        .then((res) => {
+          // 以太坊单位的转化，返回的位的单位
+          console.log(web3.utils.fromWei(res, "ether"));
+        });
+
+      // 转账
+      // 使用 promise
+      var setTransation = async () => {
+        await getAuth();
+      };
+      //   setTransation();
+    </script>
+  </body>
+</html>
