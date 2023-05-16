@@ -8,22 +8,32 @@
     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
   </head>
   <body>
+    <h1 id="title"></h1>
+    <input type="text" id="toaccount" />
+    <button id="btntransation">交易</button>
     <script>
+      var account7 = "0xb0DE788691DFafe583eC100D20Bea80CCfAD669d";
+      var account8 = "0x0486b9B618DcED430F1343Fff6Df889E38D8fE66";
+      var title = document.getElementById("title");
+      var toaccount = document.getElementById("toaccount").value;
+      var btntransation = document.getElementById("btntransation");
+
       // 构造一个web3实例对象,让我们的区块链连接到本地的库中，未来作为以太网远程节点
       var web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
       console.log(web3);
 
-      var getAuth = async () => {
+      var sentTran = async () => {
         // Before you make any requests to metamask, you need to first connect to metamask wallet and get the accounts that user authorizes.
         const accounts = await ethereum.request({
           method: "eth_requestAccounts",
         });
 
-        // ! 转账
+        toaccount = document.getElementById("toaccount").value;
+        // ! 转账  account 7 转给 account 8
         web3.eth
           .sendTransaction({
-            from: "0x0e998FddAab5B72d492A1187cfE0eAB554e6bbAE",
-            to: "0xB0589ff83923bAe9C12C092Eb4c49Eb1A5c52d75",
+            from: title.innerHTML,
+            to: toaccount,
             value: web3.utils.toWei("1", "ether"),
           })
           .then(function (receipt) {
@@ -32,10 +42,11 @@
       };
 
       var testOther = async () => {
-        // 1 需要授权账号
-        await web3.eth
-          .requestAccounts()
-          .then((res) => console.log("授权", res));
+        // 1 先需要授权账号，从metamask启用账号
+        await web3.eth.requestAccounts().then((res) => {
+          console.log("授权", res);
+          title.innerHTML = res[0];
+        });
         // 2 再获取用户账号
         await web3.eth.getAccounts().then(console.log);
 
@@ -45,23 +56,21 @@
         await web3.eth.getChainId().then(console.log);
 
         // 1 ether = 1e 18 wei 1,000,000,000,000,000,000
-        await web3.eth
-          .getBalance("0x0e998FddAab5B72d492A1187cfE0eAB554e6bbAE")
-          .then((res) => {
-            console.log("wei: ", res);
-            // 以太坊单位的转化，返回的位的单位
-            console.log("wei 转 ether：", web3.utils.fromWei(res, "ether"));
-          });
+        await web3.eth.getBalance(account7).then((res) => {
+          console.log("wei: ", res);
+          // 以太坊单位的转化，返回的位的单位
+          console.log("wei 转 ether：", web3.utils.fromWei(res, "ether"));
+        });
       };
 
       testOther();
 
       // 使用 promise
-      var setTransation = async () => {
-        await getAuth();
-      };
       // 转账
-      setTransation();
+      var setTransation = async (e) => {
+        await sentTran();
+      };
+      btntransation.addEventListener("click", setTransation);
     </script>
   </body>
 </html>
