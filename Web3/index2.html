@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  </head>
+  <body>
+    <li id="list"></li>
+    <input type="text" id="myname" />
+    <input type="text" id="myage" />
+    <button id="add">上链</button>
+    <button id="read">读取</button>
+
+    <script type="module">
+      // 构造一个web3实例对象,让我们的区块链连接到本地的库中，未来作为以太网远程节点
+      var web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
+      console.log(web3);
+
+      // 先授权, await 在顶层模块中使用
+      const account = await web3.eth.requestAccounts();
+      console.log(account);
+
+      // abi: 连接智能合约程序 Contract, abi与二进制合约交互json格式数据结构，只要复制过来❗只要重新部署就要把新的合约给复制过来
+      // address: 部署上链之后会有一个智能合约的地址，唯一的不重复的透明的
+      // web3.eth.Contract("abi", "address");
+      const staffStorage = await new web3.eth.Contract(
+        [
+          {
+            inputs: [
+              {
+                internalType: "uint256",
+                name: "",
+                type: "uint256",
+              },
+            ],
+            name: "StaffList",
+            outputs: [
+              {
+                internalType: "uint256",
+                name: "id",
+                type: "uint256",
+              },
+              {
+                internalType: "string",
+                name: "name",
+                type: "string",
+              },
+              {
+                internalType: "uint256",
+                name: "age",
+                type: "uint256",
+              },
+              {
+                internalType: "address",
+                name: "account",
+                type: "address",
+              },
+            ],
+            stateMutability: "view",
+            type: "function",
+          },
+          {
+            inputs: [
+              {
+                internalType: "string",
+                name: "_name",
+                type: "string",
+              },
+              {
+                internalType: "uint256",
+                name: "_age",
+                type: "uint256",
+              },
+            ],
+            name: "addList",
+            outputs: [
+              {
+                internalType: "uint256",
+                name: "",
+                type: "uint256",
+              },
+            ],
+            stateMutability: "nonpayable",
+            type: "function",
+          },
+          {
+            inputs: [],
+            name: "getList",
+            outputs: [
+              {
+                components: [
+                  {
+                    internalType: "uint256",
+                    name: "id",
+                    type: "uint256",
+                  },
+                  {
+                    internalType: "string",
+                    name: "name",
+                    type: "string",
+                  },
+                  {
+                    internalType: "uint256",
+                    name: "age",
+                    type: "uint256",
+                  },
+                  {
+                    internalType: "address",
+                    name: "account",
+                    type: "address",
+                  },
+                ],
+                internalType: "struct StaffListStorage.Staff[]",
+                name: "",
+                type: "tuple[]",
+              },
+            ],
+            stateMutability: "view",
+            type: "function",
+          },
+        ],
+        "0x27D8C4D9b7f933dc6E34FC37b33443383FAC0f90"
+      );
+      console.log(staffStorage);
+
+      add.addEventListener("click", async function () {
+        // console.log(myname.value, myage.value);
+        // 谁发起的交易谁付钱，交易发起交易
+        await staffStorage.methods.addList(myname.value, myage.value).send({
+          from: account[0],
+        });
+        await getList();
+      });
+
+      read.addEventListener("click", async function () {
+        await getList();
+      });
+
+      async function getList() {
+        let res = await staffStorage.methods.getList().call();
+        list.innerHTML = res
+          .map((item) => `<li>${item.id}--${item.name}--${item.age}</li>`)
+          .join("");
+        console.log(res);
+      }
+
+      // 首页进入页面，添加完后也要获取
+      await getList();
+    </script>
+  </body>
+</html>

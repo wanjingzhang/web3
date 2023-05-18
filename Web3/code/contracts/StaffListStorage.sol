@@ -8,6 +8,7 @@ contract StaffListStorage {
         uint id;
         string name;
         uint age;
+        address account;
     }
 
     // 动态数组[不写长度]
@@ -18,7 +19,7 @@ contract StaffListStorage {
     function addList(string memory _name, uint _age) public returns (uint) {
         uint count = StaffList.length;
         uint index = count + 1;
-        StaffList.push(Staff(index, _name, _age));
+        StaffList.push(Staff(index, _name, _age, msg.sender));
         return StaffList.length;
     }
 
