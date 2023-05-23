@@ -1,4 +1,5 @@
 // 学生的智能合约程序
+// SPDX-License-Identifier: GPL-3.0
 // 源码遵循协议，MIT ... c, python, typescript
 pragma solidity >=0.4.16 <0.9.0; // 限定solidity编译器版本
 
