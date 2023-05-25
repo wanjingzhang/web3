@@ -5,7 +5,7 @@ pragma solidity >=0.4.16 <0.9.0; // 限定solidity编译器版本
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 contract CelineToken {
-    using SafeMath for uint256;
+    using SafeMath for uint256; // 为了后面使用uint256，sub,add 方法
 
     string public name = "CelineToken";
     string public symbol = "CLT"; // 代币符号
