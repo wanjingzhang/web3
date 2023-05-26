@@ -3377,7 +3377,7 @@
                 }
               ]
             },
-            "name": "array_length_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+            "name": "array_length_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -3463,7 +3463,7 @@
                 }
               ]
             },
-            "name": "array_storeLengthForEncoding_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "array_storeLengthForEncoding_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -3546,7 +3546,7 @@
                 }
               ]
             },
-            "name": "array_dataslot_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+            "name": "array_dataslot_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -4450,7 +4450,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_struct$_Staff_$698_memory_ptr_to_t_struct$_Staff_$698_memory_ptr",
+            "name": "abi_encode_t_struct$_Staff_$830_memory_ptr_to_t_struct$_Staff_$830_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -4498,7 +4498,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_struct$_Staff_$698_memory_ptr_to_t_struct$_Staff_$698_memory_ptr",
+                      "name": "abi_encode_t_struct$_Staff_$830_memory_ptr_to_t_struct$_Staff_$830_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "8611:77:5"
                     },
@@ -4515,7 +4515,7 @@
                 }
               ]
             },
-            "name": "abi_encodeUpdatedPos_t_struct$_Staff_$698_memory_ptr_to_t_struct$_Staff_$698_memory_ptr",
+            "name": "abi_encodeUpdatedPos_t_struct$_Staff_$830_memory_ptr_to_t_struct$_Staff_$830_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -4582,7 +4582,7 @@
                 }
               ]
             },
-            "name": "array_nextElement_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+            "name": "array_nextElement_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -4619,7 +4619,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_length_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_length_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "9120:69:5"
                     },
@@ -4652,7 +4652,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "9212:95:5"
                     },
@@ -4747,7 +4747,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_dataslot_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_dataslot_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "9421:71:5"
                     },
@@ -4871,7 +4871,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "abi_encodeUpdatedPos_t_struct$_Staff_$698_memory_ptr_to_t_struct$_Staff_$698_memory_ptr",
+                            "name": "abi_encodeUpdatedPos_t_struct$_Staff_$830_memory_ptr_to_t_struct$_Staff_$830_memory_ptr",
                             "nodeType": "YulIdentifier",
                             "src": "9713:87:5"
                           },
@@ -4898,7 +4898,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "array_nextElement_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+                            "name": "array_nextElement_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
                             "nodeType": "YulIdentifier",
                             "src": "9844:74:5"
                           },
@@ -5072,7 +5072,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "abi_encode_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -5213,7 +5213,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "abi_encode_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "10323:137:5"
                     },
@@ -5230,7 +5230,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
+            "name": "abi_encode_tuple_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8272,7 +8272,7 @@
           }
         ]
       },
-      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_tuple_t_uint256_t_string_memory_ptr_t_uint256_t_address__to_t_uint256_t_string_memory_ptr_t_uint256_t_address__fromStack_reversed(headStart , value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 128)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n        mstore(add(headStart, 32), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value1,  tail)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n        abi_encode_t_address_to_t_address_fromStack(value3,  add(headStart, 96))\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_string_memory_ptrt_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := calldataload(add(headStart, 0))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value0 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_t_address_to_t_address(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    // struct StaffListStorage.Staff -> struct StaffListStorage.Staff\n    function abi_encode_t_struct$_Staff_$698_memory_ptr_to_t_struct$_Staff_$698_memory_ptr(value, pos)  -> end  {\n        let tail := add(pos, 0x80)\n\n        {\n            // id\n\n            let memberValue0 := mload(add(value, 0x00))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x00))\n        }\n\n        {\n            // name\n\n            let memberValue0 := mload(add(value, 0x20))\n\n            mstore(add(pos, 0x20), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // age\n\n            let memberValue0 := mload(add(value, 0x40))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x40))\n        }\n\n        {\n            // account\n\n            let memberValue0 := mload(add(value, 0x60))\n            abi_encode_t_address_to_t_address(memberValue0, add(pos, 0x60))\n        }\n\n        end := tail\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_Staff_$698_memory_ptr_to_t_struct$_Staff_$698_memory_ptr(value0, pos) -> updatedPos {\n        updatedPos := abi_encode_t_struct$_Staff_$698_memory_ptr_to_t_struct$_Staff_$698_memory_ptr(value0, pos)\n    }\n\n    function array_nextElement_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct StaffListStorage.Staff[] -> struct StaffListStorage.Staff[]\n    function abi_encode_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let headStart := pos\n        let tail := add(pos, mul(length, 0x20))\n        let baseRef := array_dataslot_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            mstore(pos, sub(tail, headStart))\n            let elementValue0 := mload(srcPtr)\n            tail := abi_encodeUpdatedPos_t_struct$_Staff_$698_memory_ptr_to_t_struct$_Staff_$698_memory_ptr(elementValue0, tail)\n            srcPtr := array_nextElement_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr(srcPtr)\n            pos := add(pos, 0x20)\n        }\n        pos := tail\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n    function array_dataslot_t_string_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shl(bits, value)\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_string_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_string_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shr(bits, value)\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_string_memory_ptr_to_t_string_storage(slot, src) {\n\n        let newLen := array_length_t_string_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n}\n",
+      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_tuple_t_uint256_t_string_memory_ptr_t_uint256_t_address__to_t_uint256_t_string_memory_ptr_t_uint256_t_address__fromStack_reversed(headStart , value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 128)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n        mstore(add(headStart, 32), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value1,  tail)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n        abi_encode_t_address_to_t_address_fromStack(value3,  add(headStart, 96))\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_string_memory_ptrt_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := calldataload(add(headStart, 0))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value0 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_t_address_to_t_address(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    // struct StaffListStorage.Staff -> struct StaffListStorage.Staff\n    function abi_encode_t_struct$_Staff_$830_memory_ptr_to_t_struct$_Staff_$830_memory_ptr(value, pos)  -> end  {\n        let tail := add(pos, 0x80)\n\n        {\n            // id\n\n            let memberValue0 := mload(add(value, 0x00))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x00))\n        }\n\n        {\n            // name\n\n            let memberValue0 := mload(add(value, 0x20))\n\n            mstore(add(pos, 0x20), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // age\n\n            let memberValue0 := mload(add(value, 0x40))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x40))\n        }\n\n        {\n            // account\n\n            let memberValue0 := mload(add(value, 0x60))\n            abi_encode_t_address_to_t_address(memberValue0, add(pos, 0x60))\n        }\n\n        end := tail\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_Staff_$830_memory_ptr_to_t_struct$_Staff_$830_memory_ptr(value0, pos) -> updatedPos {\n        updatedPos := abi_encode_t_struct$_Staff_$830_memory_ptr_to_t_struct$_Staff_$830_memory_ptr(value0, pos)\n    }\n\n    function array_nextElement_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct StaffListStorage.Staff[] -> struct StaffListStorage.Staff[]\n    function abi_encode_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let headStart := pos\n        let tail := add(pos, mul(length, 0x20))\n        let baseRef := array_dataslot_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            mstore(pos, sub(tail, headStart))\n            let elementValue0 := mload(srcPtr)\n            tail := abi_encodeUpdatedPos_t_struct$_Staff_$830_memory_ptr_to_t_struct$_Staff_$830_memory_ptr(elementValue0, tail)\n            srcPtr := array_nextElement_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr(srcPtr)\n            pos := add(pos, 0x20)\n        }\n        pos := tail\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n    function array_dataslot_t_string_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shl(bits, value)\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_string_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_string_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shr(bits, value)\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_string_memory_ptr_to_t_string_storage(slot, src) {\n\n        let newLen := array_length_t_string_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n}\n",
       "id": 5,
       "language": "Yul",
       "name": "#utility.yul"
@@ -8286,15 +8286,15 @@
     "absolutePath": "project:/contracts/StaffListStorage.sol",
     "exportedSymbols": {
       "StaffListStorage": [
-        756
+        888
       ]
     },
-    "id": 757,
+    "id": 889,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 689,
+        "id": 821,
         "literals": [
           "solidity",
           ">=",
@@ -8314,9 +8314,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 756,
+        "id": 888,
         "linearizedBaseContracts": [
-          756
+          888
         ],
         "name": "StaffListStorage",
         "nameLocation": "202:16:3",
@@ -8324,16 +8324,16 @@
         "nodes": [
           {
             "canonicalName": "StaffListStorage.Staff",
-            "id": 698,
+            "id": 830,
             "members": [
               {
                 "constant": false,
-                "id": 691,
+                "id": 823,
                 "mutability": "mutable",
                 "name": "id",
                 "nameLocation": "280:2:3",
                 "nodeType": "VariableDeclaration",
-                "scope": 698,
+                "scope": 830,
                 "src": "275:7:3",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -8342,7 +8342,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 690,
+                  "id": 822,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "275:4:3",
@@ -8355,12 +8355,12 @@
               },
               {
                 "constant": false,
-                "id": 693,
+                "id": 825,
                 "mutability": "mutable",
                 "name": "name",
                 "nameLocation": "300:4:3",
                 "nodeType": "VariableDeclaration",
-                "scope": 698,
+                "scope": 830,
                 "src": "293:11:3",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -8369,7 +8369,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 692,
+                  "id": 824,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "293:6:3",
@@ -8382,12 +8382,12 @@
               },
               {
                 "constant": false,
-                "id": 695,
+                "id": 827,
                 "mutability": "mutable",
                 "name": "age",
                 "nameLocation": "320:3:3",
                 "nodeType": "VariableDeclaration",
-                "scope": 698,
+                "scope": 830,
                 "src": "315:8:3",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -8396,7 +8396,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 694,
+                  "id": 826,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "315:4:3",
@@ -8409,12 +8409,12 @@
               },
               {
                 "constant": false,
-                "id": 697,
+                "id": 829,
                 "mutability": "mutable",
                 "name": "account",
                 "nameLocation": "342:7:3",
                 "nodeType": "VariableDeclaration",
-                "scope": 698,
+                "scope": 830,
                 "src": "334:15:3",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -8423,7 +8423,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 696,
+                  "id": 828,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "334:7:3",
@@ -8439,52 +8439,52 @@
             "name": "Staff",
             "nameLocation": "258:5:3",
             "nodeType": "StructDefinition",
-            "scope": 756,
+            "scope": 888,
             "src": "251:106:3",
             "visibility": "public"
           },
           {
             "constant": false,
             "functionSelector": "5a50e382",
-            "id": 702,
+            "id": 834,
             "mutability": "mutable",
             "name": "StaffList",
             "nameLocation": "415:9:3",
             "nodeType": "VariableDeclaration",
-            "scope": 756,
+            "scope": 888,
             "src": "400:24:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_Staff_$698_storage_$dyn_storage",
+              "typeIdentifier": "t_array$_t_struct$_Staff_$830_storage_$dyn_storage",
               "typeString": "struct StaffListStorage.Staff[]"
             },
             "typeName": {
               "baseType": {
-                "id": 700,
+                "id": 832,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 699,
+                  "id": 831,
                   "name": "Staff",
                   "nameLocations": [
                     "400:5:3"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 698,
+                  "referencedDeclaration": 830,
                   "src": "400:5:3"
                 },
-                "referencedDeclaration": 698,
+                "referencedDeclaration": 830,
                 "src": "400:5:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Staff_$698_storage_ptr",
+                  "typeIdentifier": "t_struct$_Staff_$830_storage_ptr",
                   "typeString": "struct StaffListStorage.Staff"
                 }
               },
-              "id": 701,
+              "id": 833,
               "nodeType": "ArrayTypeName",
               "src": "400:7:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_Staff_$698_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_Staff_$830_storage_$dyn_storage_ptr",
                 "typeString": "struct StaffListStorage.Staff[]"
               }
             },
@@ -8492,23 +8492,23 @@
           },
           {
             "body": {
-              "id": 737,
+              "id": 869,
               "nodeType": "Block",
               "src": "616:179:3",
               "statements": [
                 {
                   "assignments": [
-                    712
+                    844
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 712,
+                      "id": 844,
                       "mutability": "mutable",
                       "name": "count",
                       "nameLocation": "632:5:3",
                       "nodeType": "VariableDeclaration",
-                      "scope": 737,
+                      "scope": 869,
                       "src": "627:10:3",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -8517,7 +8517,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 711,
+                        "id": 843,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
                         "src": "627:4:3",
@@ -8529,21 +8529,21 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 715,
+                  "id": 847,
                   "initialValue": {
                     "expression": {
-                      "id": 713,
+                      "id": 845,
                       "name": "StaffList",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 702,
+                      "referencedDeclaration": 834,
                       "src": "640:9:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Staff_$698_storage_$dyn_storage",
+                        "typeIdentifier": "t_array$_t_struct$_Staff_$830_storage_$dyn_storage",
                         "typeString": "struct StaffListStorage.Staff storage ref[] storage ref"
                       }
                     },
-                    "id": 714,
+                    "id": 846,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8562,17 +8562,17 @@
                 },
                 {
                   "assignments": [
-                    717
+                    849
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 717,
+                      "id": 849,
                       "mutability": "mutable",
                       "name": "index",
                       "nameLocation": "672:5:3",
                       "nodeType": "VariableDeclaration",
-                      "scope": 737,
+                      "scope": 869,
                       "src": "667:10:3",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -8581,7 +8581,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 716,
+                        "id": 848,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
                         "src": "667:4:3",
@@ -8593,23 +8593,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 721,
+                  "id": 853,
                   "initialValue": {
                     "commonType": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 720,
+                    "id": 852,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 718,
+                      "id": 850,
                       "name": "count",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 712,
+                      "referencedDeclaration": 844,
                       "src": "680:5:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -8620,7 +8620,7 @@
                     "operator": "+",
                     "rightExpression": {
                       "hexValue": "31",
-                      "id": 719,
+                      "id": 851,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -8649,11 +8649,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 726,
+                            "id": 858,
                             "name": "index",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 717,
+                            "referencedDeclaration": 849,
                             "src": "721:5:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -8661,11 +8661,11 @@
                             }
                           },
                           {
-                            "id": 727,
+                            "id": 859,
                             "name": "_name",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 704,
+                            "referencedDeclaration": 836,
                             "src": "728:5:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
@@ -8673,11 +8673,11 @@
                             }
                           },
                           {
-                            "id": 728,
+                            "id": 860,
                             "name": "_age",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 706,
+                            "referencedDeclaration": 838,
                             "src": "735:4:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -8686,7 +8686,7 @@
                           },
                           {
                             "expression": {
-                              "id": 729,
+                              "id": 861,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -8697,7 +8697,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 730,
+                            "id": 862,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -8731,18 +8731,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 725,
+                          "id": 857,
                           "name": "Staff",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 698,
+                          "referencedDeclaration": 830,
                           "src": "715:5:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_struct$_Staff_$698_storage_ptr_$",
+                            "typeIdentifier": "t_type$_t_struct$_Staff_$830_storage_ptr_$",
                             "typeString": "type(struct StaffListStorage.Staff storage pointer)"
                           }
                         },
-                        "id": 731,
+                        "id": 863,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -8754,7 +8754,7 @@
                         "src": "715:37:3",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Staff_$698_memory_ptr",
+                          "typeIdentifier": "t_struct$_Staff_$830_memory_ptr",
                           "typeString": "struct StaffListStorage.Staff memory"
                         }
                       }
@@ -8762,23 +8762,23 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Staff_$698_memory_ptr",
+                          "typeIdentifier": "t_struct$_Staff_$830_memory_ptr",
                           "typeString": "struct StaffListStorage.Staff memory"
                         }
                       ],
                       "expression": {
-                        "id": 722,
+                        "id": 854,
                         "name": "StaffList",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 702,
+                        "referencedDeclaration": 834,
                         "src": "700:9:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Staff_$698_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Staff_$830_storage_$dyn_storage",
                           "typeString": "struct StaffListStorage.Staff storage ref[] storage ref"
                         }
                       },
-                      "id": 724,
+                      "id": 856,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -8788,11 +8788,11 @@
                       "nodeType": "MemberAccess",
                       "src": "700:14:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Staff_$698_storage_$dyn_storage_ptr_$_t_struct$_Staff_$698_storage_$returns$__$attached_to$_t_array$_t_struct$_Staff_$698_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Staff_$830_storage_$dyn_storage_ptr_$_t_struct$_Staff_$830_storage_$returns$__$attached_to$_t_array$_t_struct$_Staff_$830_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct StaffListStorage.Staff storage ref[] storage pointer,struct StaffListStorage.Staff storage ref)"
                       }
                     },
-                    "id": 732,
+                    "id": 864,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8808,25 +8808,25 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 733,
+                  "id": 865,
                   "nodeType": "ExpressionStatement",
                   "src": "700:53:3"
                 },
                 {
                   "expression": {
                     "expression": {
-                      "id": 734,
+                      "id": 866,
                       "name": "StaffList",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 702,
+                      "referencedDeclaration": 834,
                       "src": "771:9:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Staff_$698_storage_$dyn_storage",
+                        "typeIdentifier": "t_array$_t_struct$_Staff_$830_storage_$dyn_storage",
                         "typeString": "struct StaffListStorage.Staff storage ref[] storage ref"
                       }
                     },
-                    "id": 735,
+                    "id": 867,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8840,15 +8840,15 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 710,
-                  "id": 736,
+                  "functionReturnParameters": 842,
+                  "id": 868,
                   "nodeType": "Return",
                   "src": "764:23:3"
                 }
               ]
             },
             "functionSelector": "6b29d35f",
-            "id": 738,
+            "id": 870,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -8856,17 +8856,17 @@
             "nameLocation": "554:7:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 707,
+              "id": 839,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 704,
+                  "id": 836,
                   "mutability": "mutable",
                   "name": "_name",
                   "nameLocation": "576:5:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 738,
+                  "scope": 870,
                   "src": "562:19:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -8875,7 +8875,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 703,
+                    "id": 835,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "562:6:3",
@@ -8888,12 +8888,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 706,
+                  "id": 838,
                   "mutability": "mutable",
                   "name": "_age",
                   "nameLocation": "588:4:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 738,
+                  "scope": 870,
                   "src": "583:9:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -8902,7 +8902,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 705,
+                    "id": 837,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "583:4:3",
@@ -8917,17 +8917,17 @@
               "src": "561:32:3"
             },
             "returnParameters": {
-              "id": 710,
+              "id": 842,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 709,
+                  "id": 841,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 738,
+                  "scope": 870,
                   "src": "610:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -8936,7 +8936,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 708,
+                    "id": 840,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "610:4:3",
@@ -8950,7 +8950,7 @@
               ],
               "src": "609:6:3"
             },
-            "scope": 756,
+            "scope": 888,
             "src": "545:250:3",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -8958,72 +8958,72 @@
           },
           {
             "body": {
-              "id": 754,
+              "id": 886,
               "nodeType": "Block",
               "src": "912:72:3",
               "statements": [
                 {
                   "assignments": [
-                    749
+                    881
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 749,
+                      "id": 881,
                       "mutability": "mutable",
                       "name": "list",
                       "nameLocation": "938:4:3",
                       "nodeType": "VariableDeclaration",
-                      "scope": 754,
+                      "scope": 886,
                       "src": "923:19:3",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+                        "typeIdentifier": "t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
                         "typeString": "struct StaffListStorage.Staff[]"
                       },
                       "typeName": {
                         "baseType": {
-                          "id": 747,
+                          "id": 879,
                           "nodeType": "UserDefinedTypeName",
                           "pathNode": {
-                            "id": 746,
+                            "id": 878,
                             "name": "Staff",
                             "nameLocations": [
                               "923:5:3"
                             ],
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 698,
+                            "referencedDeclaration": 830,
                             "src": "923:5:3"
                           },
-                          "referencedDeclaration": 698,
+                          "referencedDeclaration": 830,
                           "src": "923:5:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Staff_$698_storage_ptr",
+                            "typeIdentifier": "t_struct$_Staff_$830_storage_ptr",
                             "typeString": "struct StaffListStorage.Staff"
                           }
                         },
-                        "id": 748,
+                        "id": 880,
                         "nodeType": "ArrayTypeName",
                         "src": "923:7:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Staff_$698_storage_$dyn_storage_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Staff_$830_storage_$dyn_storage_ptr",
                           "typeString": "struct StaffListStorage.Staff[]"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 751,
+                  "id": 883,
                   "initialValue": {
-                    "id": 750,
+                    "id": 882,
                     "name": "StaffList",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 702,
+                    "referencedDeclaration": 834,
                     "src": "945:9:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Staff_$698_storage_$dyn_storage",
+                      "typeIdentifier": "t_array$_t_struct$_Staff_$830_storage_$dyn_storage",
                       "typeString": "struct StaffListStorage.Staff storage ref[] storage ref"
                     }
                   },
@@ -9032,26 +9032,26 @@
                 },
                 {
                   "expression": {
-                    "id": 752,
+                    "id": 884,
                     "name": "list",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 749,
+                    "referencedDeclaration": 881,
                     "src": "972:4:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
                       "typeString": "struct StaffListStorage.Staff memory[] memory"
                     }
                   },
-                  "functionReturnParameters": 744,
-                  "id": 753,
+                  "functionReturnParameters": 876,
+                  "id": 885,
                   "nodeType": "Return",
                   "src": "965:11:3"
                 }
               ]
             },
             "functionSelector": "942b765a",
-            "id": 755,
+            "id": 887,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -9059,56 +9059,56 @@
             "nameLocation": "865:7:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 739,
+              "id": 871,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "872:2:3"
             },
             "returnParameters": {
-              "id": 744,
+              "id": 876,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 743,
+                  "id": 875,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 755,
+                  "scope": 887,
                   "src": "896:14:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Staff_$698_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Staff_$830_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct StaffListStorage.Staff[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 741,
+                      "id": 873,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 740,
+                        "id": 872,
                         "name": "Staff",
                         "nameLocations": [
                           "896:5:3"
                         ],
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 698,
+                        "referencedDeclaration": 830,
                         "src": "896:5:3"
                       },
-                      "referencedDeclaration": 698,
+                      "referencedDeclaration": 830,
                       "src": "896:5:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Staff_$698_storage_ptr",
+                        "typeIdentifier": "t_struct$_Staff_$830_storage_ptr",
                         "typeString": "struct StaffListStorage.Staff"
                       }
                     },
-                    "id": 742,
+                    "id": 874,
                     "nodeType": "ArrayTypeName",
                     "src": "896:7:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Staff_$698_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Staff_$830_storage_$dyn_storage_ptr",
                       "typeString": "struct StaffListStorage.Staff[]"
                     }
                   },
@@ -9117,14 +9117,14 @@
               ],
               "src": "895:16:3"
             },
-            "scope": 756,
+            "scope": 888,
             "src": "856:128:3",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 757,
+        "scope": 889,
         "src": "193:794:3",
         "usedErrors": []
       }
@@ -9145,12 +9145,12 @@
     "1685063958212": {
       "events": {},
       "links": {},
-      "address": "0xAB03358A438058587FA624455277086E53C4CE5a",
-      "transactionHash": "0x08ed42c6e2cc75b3f76cf7f3ff9ce2cc14d274975784d468081958110ec5dfac"
+      "address": "0xA5EEa82F7A6da7e8D5EDa869C21e5B0570cC3907",
+      "transactionHash": "0x2c1aa18b011ee7b90e9251d23928184a32f8653ab715584bbf025fa114c0ffce"
     }
   },
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-05-26T02:14:18.286Z",
+  "updatedAt": "2023-05-26T03:59:35.665Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

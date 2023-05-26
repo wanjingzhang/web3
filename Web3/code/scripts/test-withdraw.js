@@ -22,16 +22,15 @@ module.exports = async function (callback) {
   const exchange = await Exchange.deployed();
   const accounts = await web3.eth.getAccounts();
 
-  // 利用交易所去存钱,从第0个账号扣10个以太坊
-  await exchange.depositEther({
-    from: accounts[0],
-    value: toWei(10),
-  });
-  // 到交易所存10个以太币
-  let res1 = await exchange.tokens(ETHER_ADDRESS, accounts[0]);
-  console.log("当前交易所账户是：", fromWei(res1));
+  // 利用交易所去存钱
+  // await exchange.depositEther({
+  //   from: accounts[0],
+  //   value: toWei(10),
+  // });
+  // let res = await exchange.tokens(ETHER_ADDRESS, accounts[0]);
+  // console.log(fromWei(res));
 
-  // 交易三次，批准三次，结果还有70万，-存10万给交易所
+  // 交易三次，批准三次，结构还有
   // 授权批准
   await celinetoken.approve(exchange.address, toWei(1000000), {
     from: accounts[0],
@@ -42,7 +41,7 @@ module.exports = async function (callback) {
   });
   // 交易10万
   let res = await exchange.tokens(celinetoken.address, accounts[0]);
-  console.log("有", fromWei(res), "CLT货币");
+  console.log(fromWei(res));
 
   callback();
 };
