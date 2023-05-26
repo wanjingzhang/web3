@@ -53,7 +53,7 @@ contract Exchange {
     function depositToken(address _token, uint256 _amount) public {
         require(_token != ETHER);
         // 调用某个方法，强行从你账号往当前交易所账户转钱
-        CelineToken(_token).transferFrom(msg.sender, address(this), _amount);
+        require(CelineToken(_token).transferFrom(msg.sender, address(this), _amount));
         // 在系统中记录
         tokens[_token][msg.sender] = tokens[_token][msg.sender].add(_amount);
         // 记录
